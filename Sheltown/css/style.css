@@ -1,0 +1,96 @@
+header{
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+header nav{
+    padding-top: 0px;
+}
+header nav li{
+    display: inline-block;
+    align-items: center;
+    padding-top: 18px;
+    margin: 0 20px;
+    margin-top: 5px;
+}
+header .search-filter li{
+    display: inline-block;   
+}
+
+header .search-filter li  button{
+    padding: 7px 20px;
+}
+header .search-filter .btn-group .dropdown-menu a:hover{
+    background-color: #2ecab6;
+    transition: all 0.3s ease 0s;
+}
+header .search-filter li form input{
+    padding: 4px;
+}
+header .search-filter li form input[type=text]:hover {
+    background-color: #48968b;
+    cursor: text;
+    border-color: #48968b;
+}
+::placeholder {
+    color: rgb(114, 114, 114);
+}
+header .search-filter li form input[type=text] {
+    outline: orchid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid #2ecab6;
+    border-radius: 17px;
+    border-color: #2ecab6;
+    background-color: #2ecab6;
+    box-shadow: lightblue;
+    transition: all 0.5s ease 0s;
+    width: 300px;
+
+}
+header nav ul li .btn{
+    background-color: rgb(190, 185, 238);
+    padding: 7px 10px;
+    cursor: pointer;
+}
+header nav ul li .btn:hover{
+    transition: all 0.5s ease 0s;
+    background-color:#37a798;
+    border-radius: 5px;
+}
+img:hover{
+    cursor: pointer;
+}
+header nav ul li span:hover{
+    color:#2ecab6;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+a:hover{
+    color:#2ecab6;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+a{
+    text-decoration: none !important;
+    color: black;
+}
+button{
+    background-color: #2ecab6 !important;
+    border-radius: 17px !important;
+}
+button:hover{
+    background-color: #48968b !important;
+    transition: all 0.5s ease 0s !important;
+}
+span{
+    font-weight: bolder;
+}
+
+
+.logo{
+    margin-left: 15px !important;
+    border-radius: 5px;
+}
